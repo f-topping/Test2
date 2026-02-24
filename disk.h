@@ -3,12 +3,12 @@
 
 //disk header file: disk class
 class Disk{
-	private:
-		//coordinates and radius
-		double x;
-		double y;
-		double radius;
 	public:
+		//coordinated and radius
+		double radius;
+		double y;
+		double x;
+
 		//constructor, move and distance calculation functions
 		Disk(double x, double y, double r);
 		void move(double dx, double dy);

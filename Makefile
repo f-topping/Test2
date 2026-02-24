@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = -O2 -Wall -std=c++11
-SRC = disk.cpp disk.h main.cpp # system.cpp system.h 
+SRC = disk.cpp disk.h main.cpp system.cpp system.h 
 EXEC = program
 OBJ = $(SRC:.cpp=.o) #converts .cpp to .o
 
