@@ -8,7 +8,11 @@
  *
  * This function initializes the program and manages execution.
  */
+
+
 int main() {
+
+	/*
     // number of disks
     int N = 20;
     double maxDisplacement  = 0.6;
@@ -27,5 +31,9 @@ int main() {
         // save a configuration
         system.save("confs/conf"+std::to_string(i));
     }
+
+	*/
     return 0;
 }
+
+
