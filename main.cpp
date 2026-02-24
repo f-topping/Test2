@@ -12,7 +12,7 @@
 
 int main() {
     // number of disks
-    int N = 20;
+    std::size_t N = 20;
     double maxDisplacement  = 0.6;
     double dt = 0.5;
     double L = 20.0;
