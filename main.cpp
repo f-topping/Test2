@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-// HINT: COMPLETE THE INCLUDE STATEMENT
+#include "system.h"
 
 
 /**
@@ -11,8 +11,6 @@
 
 
 int main() {
-
-	/*
     // number of disks
     int N = 20;
     double maxDisplacement  = 0.6;
@@ -32,7 +30,6 @@ int main() {
         system.save("confs/conf"+std::to_string(i));
     }
 
-	*/
     return 0;
 }
 
