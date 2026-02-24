@@ -13,6 +13,6 @@ $(EXEC): $(OBJ)
 
 clean:
 	rm -f $(EXEC)
-	find . -name "*.o" - type f -delete
+	find . -name "*.o" -type f -delete
 	@echo "Clean complete"
 	
